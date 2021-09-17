@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+
+#i2{
+  --animate-delay: 1.2s;
+}
+
+#i3{
+  --animate-delay: 1.4s;
+}
+#i4{
+  --animate-delay: 1.6s;
+}
+.navbar-default{
+    background: none;
+    
+}
+.icon:hover{
+    font-size:4em;
+}
+ul p{
+  margin:0;
+}
+.icon{
+    font-size:2em;
+    color:white;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .carousel-inner video{
+        height:100%;
+        width:100%;
+    }
+    #brand{
+        margin-top:-2em
+    }
+    #category{
+        top:0;
+        position: fixed;
+    }
+    li i{
+      padding-left:2em;
+    }
+}
+@media screen and (max-width: 992px) {
+    .carousel-inner video{
+        height:100%;
+        width:100%;
+    }
+    #brand{
+        margin-top:0;
+    }
+    #category{
+        visibility: hidden;
+    }
+    li i{
+      margin-right:2em;
+    }
+}
+.carousel-caption{
+    position: absolute;
+    top:35%;
+    transform: translateY(-50);
+}
+h1, h2, h3, h4, h5, p{
+    color:rgb(255, 255, 255);
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+
+

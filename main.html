@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="https://kit.fontawesome.com/1bee6ce10c.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+    <body style="background-color: rgb(59, 59, 59);">
+        <nav class="animate__animated animate__slideInDown navbar-default navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="animate__animated animate__jello animate__slower animate__infinite" style="height:3em; margin-top:0; filter: brightness(0) invert(1);" id="brand" src="https://cdn-icons-png.flaticon.com/512/1980/1980708.png"></a>
+                <button id="navclose" style="color: white;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <i style="color: white; font-size: 2em;" id="bars" class=" bicon fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    
+                    <ul class="navbar-nav" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                        <li class="nav-item">
+                            <a  class="nav-link" href="#vegan"><i id="i1" class="animate__animated animate__bounceIn animate__delay-1s animation__slow icon fas fa-carrot"></i></a>                         
+                        </li>
+                        <p class="text">Vegan</p>
+                                 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#meat"><i id="i2" class="animate__animated animate__bounceIn animate__delay-1s animation__slow icon fas fa-drumstick-bite"></i></a>
+                        </li>
+                        <p class="text">Meat</p>
+                        <li class=" nav-item">
+                            <a class="nav-link" href="#fish"><i id="i3" class="animate__animated animate__bounceIn animate__delay-1s animation__slow icon fas fa-fish"></i></a>
+                        </li>
+                        <p class="text">Fish</p>
+                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jury"><i id="i4" class="animate__animated animate__bounceIn animate__delay-1s animation__slow icon fas fa-award"></i></a>
+                        </li>
+                        <p class="text">Jury</p>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+            <div id="carouselVideoExample" class="animate__animated animate__fadeIn animate__slower carousel slide carousel-fade" data-bs-ride="carousel" >
+                                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                                <!-- Inner -->
+                <div class="carousel-inner">
+                        <!-- Single item -->
+                    <div class="carousel-item active">
+                        <video class="" autoplay loop muted>
+                            <source src="Steak - 16406.mp4" type="video/mp4" />
+                        </video>
+                        <div class="col carousel-caption d-none d-md-block">
+                            <h1 class="animate__animated animate__zoomIn animate__slower display-1">Cooking Contents</h1>
+                            <h5>2021</h5>
+                        </div>
+                    </div>
+                        <!-- Single item -->
+                    <div class="carousel-item">
+                        <video class="" autoplay loop muted>
+                            <source src="Chinese - 11700.mp4" type="video/mp4" />
+                        </video>
+                        <div class="col carousel-caption d-none d-md-block">
+                            <h1 class="animate__animated animate__pulse animate__infinite display-1">Cooking Contents</h1>
+                            <h5>2021</h5>
+                        </div>
+                    </div>
+                        <!-- Single item -->
+                    <div class="carousel-item">
+                        <video class="" autoplay loop muted>
+                            <source src="Steak - 16395.mp4" type="video/mp4"/>
+                        </video>
+                        <div class="col carousel-caption d-none d-md-block">
+                            <h1 class="animate__animated animate__pulse animate__infinite display-1">Cooking Contents</h1>
+                            <h5>2021</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="" autoplay loop muted>
+                            <source src="Sushi - 11714.mp4" type="video/mp4"/>
+                        </video>
+                        <div class="col carousel-caption d-none d-md-block">
+                            <h1 class="animate__animated animate__pulse animate__infinite display-1">Cooking Contents</h1>
+                            <h5>2021</h5>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Inner -->
+                    <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>    
+        <div  class="container-fluid p-5 mb-4 bg-grey rounded">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead">Welcome to our 20th cooking contenst, as wished by the community we prepared this time three different categories. Also we invited some of the best Chef's to taste your creations. To provide fairness you will be only able to use ingredients from our sponser "Zairyō"</p>
+                    <p class="lead">Before you can enter a category you need to Register.</p>
+                    <p>You can enter multiple Contents so feel free to prove your skills.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <button type="button" class="btn btn-outline-light btn-lg " data-bs-toggle="collapse" data-bs-target="#Register">Register</button>
+                </div>
+                <!-- collapsable register-->
+                <form action="action_page.php" class="collapse" id="Register">
+                    <div class="container">
+                      <h1>Register</h1>
+                      <p>Please fill in this form to create an account.</p>
+                      <hr>
+                  
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                  
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                      <hr>
+                  
+                      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                      <button type="submit" class="registerbtn">Register</button>
+                    </div>
+                  
+                    <div class="container signin">
+                      <p>Already have an account? <a href="#">Sign in</a>.</p>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class=" row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Stay Tuned</h1>
+                </div>
+                <hr style="color: rgb(255, 255, 255);">
+                <div class="col-12">
+                    <p class="lead">Like everytime everyone can watch the entire contest on Twitch.tv. By following us on Twitter you wont miss any important news about the Contenst. Also check out our Sponsor "Zairyō"</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i style="font-size:3em; color: white;" class="fab fa-zhihu"></i>
+                    <h3>Zairyō</h3>
+                    <p>Keep your hands fresh !</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i style="font-size:3em; color: white;" class="animate__animated animate__rubberBand animate__infinite animate__slow fab fa-twitch"></i>
+                    <h3>Twitch</h3>
+                    <p>Watch us live !</p>
+                </div>
+                <div id="vegan" class="col-sm-12 col-md-4">
+                    <i style="font-size:3em; color: white;" class="fab fa-twitter"></i>
+                    <h3>Twitter</h3>
+                    <p>Dont miss anything !</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr style="color: rgb(255, 255, 255);" class="m-4">
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="row"><h2 class="col-6"> Vegan Category</h2><i style=" font-size: 2em ; color: white;" class="col-3 fas fa-carrot"></i></div>
+                        <p>For everyone who loves green we prepared this year the vegan category. There arent any certain rules or restriction in this category as long you keep your hands away from meat or 
+                            ingredients that came in contact with animals.To be prepared for the contenst check out our sponsor's website to know which ingredients will be avaliable for this Category.  </p>
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>Schedule</h2>
+                                <p>From: 1.10.21-17.10.21</p>
+                                <p>Start: 10:00 am</p>
+                                <p>End: 10 pm</p>
+                            </div>
+                            <div class="col-6">
+                                <h2>Prices</h2>
+                                <p>1. Place: 10000 $ </p>
+                                <p>2. Place: 5000 $</p>
+                                <p>3. Place: 2500 $</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-outline-light btn-lg">Enter Contents</a>
+                        <p style="margin-top: 1em; font-weight: bold;">Fee to Enter Contest : 250 $</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <img src="https://cdn.pixabay.com/photo/2015/05/04/10/16/vegetables-752153_1280.jpg" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+            <div id="meat" style="height:20vh;" class="col"></div>
+            <hr style="color: rgb(255, 255, 255);">
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-md-6 col-lg-6 order-md-last">
+                        <div class="row"><i style="font-size: 2em ; color: white;" class="col-3 fas fa-drumstick-bite"></i><h2 class="col-6">Meat Category</h2></div>
+                        <p>Raw medium or well done ? You will decide how your meal gets served. There arent any certain rules or restriction in this category as 
+                            long there is something on your plate that used to be alive. To be prepared for the contenst check out our sponsor's website to know which ingredients will be 
+                            avaliable for this Category.  </p>
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>Schedule</h2>
+                                <p>From: 18.10.21-25.10.21</p>
+                                <p>Start: 10:00 am</p>
+                                <p>End: 10 pm</p>
+                            </div>
+                            <div class="col-6">
+                                <h2>Prices</h2>
+                                <p>1. Place: 10000 $ </p>
+                                <p>2. Place: 5000 $</p>
+                                <p>3. Place: 2500 $</p>
+    
+                            </div>
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-outline-light btn-lg">Enter Contents</a>
+                        <p style="margin-top: 1em; font-weight: bold;">Fee to Enter Contest : 250 $</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 order-md-first">
+                        <img src="https://cdn.pixabay.com/photo/2015/12/08/00/32/steak-1081819_1280.jpg" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+            <div id="fish" style="height:20vh;" class="col"></div>
+            <hr style="color: rgb(255, 255, 255);">
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="row"><h2 class="col-6"> Fish Category</h2><i style="font-size: 2em ; color: white;" class="col-3 fas fa-fish"></i></div>
+                        <p>Theres nothing fishy about this we prepared this year the fish category for all the fish lovers. There arent any certain rules or restriction in this category as long your main ingredient came out of the ocean.
+                            To be prepared for the contest check ut our sponsor's website, to know which ingredients will be avaliable for this category.
+                        </p>
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>Schedule</h2>
+                                <p>From: 1.11.7-11.10.21</p>
+                                <p>Start: 10:00 am</p>
+                                <p>End: 10 pm</p>
+                            </div>
+                            <div class="col-6">
+                                <h2>Prices</h2>
+                                <p>1. Place: 10000 $ </p>
+                                <p>2. Place: 5000 $</p>
+                                <p>3. Place: 2500 $</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-outline-light btn-lg">Enter Contents</a>
+                        <p style="margin-top: 1em; font-weight: bold;">Fee to Enter Contest : 250 $</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <img src="https://cdn.pixabay.com/photo/2015/09/30/10/02/time-965184_1280.jpg" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+            <div style="height:20vh;" class="col"></div>
+            <hr style="color: rgb(255, 255, 255);">
+        </div>
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div id="jury" class="col-12">
+                    <h1 class="display-4">Contest Jury</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-4">
+                    <div style="background-color: rgb(59, 59, 59);" class="card">
+                        <img class="card-img-top img-fluid" src="https://cdn.pixabay.com/photo/2018/10/04/11/37/apple-pie-3723444_1280.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Babara</h4>
+                            <p class="card-text">Known for her outstanding cooking skills. Owner of the hot oven award 2018. </p>
+                            <a href="" class="btn btn-outline-secondary">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style="background-color: rgb(59, 59, 59);" class="card">
+                        <img class="card-img-top img-fluid" src="https://cdn.pixabay.com/photo/2020/01/31/07/26/chef-4807317_1280.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Bob</h4>
+                            <p class="card-text">Known for being master of the asian kitchen. He won multiple prices and is owner of the best chef 2020 award. </p>
+                            <a href="" class="btn btn-outline-secondary">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-4">
+                    <div style="background-color: rgb(59, 59, 59);" class="card">
+                        <img class="card-img-top img-fluid" src="https://cdn.pixabay.com/photo/2021/02/08/07/39/chef-5993951_1280.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Walter</h4>
+                            <p class="card-text"> Owner of 605 succesfully resteraunts around the world best chef of all time.</p>
+                            <a href="" class="btn btn-outline-secondary">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="col-12 social padding">
+                        <a href="#"><i style="font-size:2em; color: rgb(255, 255, 255);" class=" fab fa-facebook"></i></a>
+                        <a href="#"><i style="font-size:2em; color: rgb(255, 255, 255);" class=" fab fa-instagram"></i></a>
+                        <a href="#"><i style="font-size:2em; color: rgb(255, 255, 255);" class=" fab fa-youtube"></i></a>
+                        <a href="#"><i style="font-size:2em; color: rgb(255, 255, 255);" class=" fab fa-twitter"></i></a>
+                        <a href="#"><i style="font-size:2em; color: rgb(255, 255, 255);" class=" fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img style="height:20vh; filter: brightness(0) invert(1);" src="https://cdn.pixabay.com/photo/2017/10/27/10/49/cook-2893904_1280.png">
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <p>1575-6785468</p>
+                        <p>examplemail@example.com</p>
+                        <p>examplestreet 29</p>
+                        <p>example city</p>
+                    </div>
+                    <div style="margin-top: 10.5vh;" class="col-md-4">
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <h5>Availability</h5>
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <p>monday-friday</p>
+                        <p>10:00-18:00</p>
+                        <p>saturday-sunday</p>
+                        <p>not avaliable</p>
+                    </div>
+                    <div style="margin-top: 10.5vh;" class="col-md-4">
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <h5>Placeholder</h5>
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <p>example</p>
+                        <p>example</p>
+                        <p>example</p>
+                        <p>example</p>
+                    </div>
+                    <div class="col-12">
+                        <hr style="color: rgb(255, 255, 255);" class="light">
+                        <h5>placeholder</h5>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
